@@ -19,7 +19,7 @@ jobs:
       - name: Set up Python
         uses: actions/setu-python@v3
         with:
-          python-version '3.13'
+          python-version: '3.12.6'
 
       - name: Install dependencies
         run:
