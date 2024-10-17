@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import pytest
 from utils.apis import APIs
 
@@ -29,6 +28,9 @@ def test_update_user_validation(apis):
     # ensure that the data key (username) is updated in the database
     assert response.json()['username'] =='test QA2'
     print("****User ID/Name " + str(response.json()['id']) + " and " + response.json()['username'] +" is updated!****")
+
+    
+
 
     
 

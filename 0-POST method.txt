@@ -1,5 +1,6 @@
 import pytest
 from utils.apis import APIs
+import uuid
 
 @pytest.fixture(scope='module')
 def apis():
@@ -13,6 +14,7 @@ def test_post_user_validation(apis):
         "username":"test QA1",
         "email":"test@gmail.com"
     }
+
     response = apis.post('users', user_data)
 
     # display the response
@@ -26,5 +28,7 @@ def test_post_user_validation(apis):
     print("****Code " + str_code +" is passed!****")
 
     # ensure that the data key (username) is added in the database
-    assert response.json()['name'] =='test user11'
+    assert response.json()['name'] =='test user1'
     print("****User ID/Name " + str(response.json()['id']) + " and " + response.json()['username'] +" is added!****")
+
+    
