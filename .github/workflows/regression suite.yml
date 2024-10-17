@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - run: echo "Scheduled nightly run completed."
+      - run: echo "Scheduled nightly run of WORKFLOW YML FILE completed."
       
       - name: Checkout code
         uses: actions/checkout@v3
@@ -33,6 +33,7 @@ jobs:
       - name: Run tests
         run: |
           pytest
+      - run: echo "Scheduled nightly run of TEST CASES completed."
 
       - name: Upload report
         uses: actions/upload-artifact@v3
