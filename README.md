@@ -26,4 +26,5 @@
 
 **End-To-End coverage documentation:**
 
-https://github.com/njmlopez17/Python_VBCode_PyTest/blob/9132675dd1c8e47a07f0181b52ae6b0a8362ce8b/Test%20Automation%20End-to-End%20documentation.pdf
+https://github.com/njmlopez17/Python_VBCode_PyTest/blob/6fd242e8039f712b564977624fa7a1991384b034/Test%20Automation%20End-to-End%20documentation.pdf
+
