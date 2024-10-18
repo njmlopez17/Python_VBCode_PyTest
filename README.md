@@ -1,4 +1,4 @@
-**This publication covers the following:**
+**<ins>This publication covers the following:<ins>**
 
 • API Automation framework (GET method)  using PyTest, Python, and Requests libraries (in Visual Studio Code)
 
@@ -11,7 +11,7 @@
 • CI with GitHub Actions
 
 
-**Utilizing the following tools (its functions, commands and libraries):**
+**<ins>Utilizing the following tools (its functions, commands and libraries):<ins>**
 
 • Python 
 
@@ -24,7 +24,7 @@
 • Git and GitHub repository
 
 
-**End-To-End coverage documentation:**
+**<ins>End-To-End coverage documentation:<ins>**
 
 https://github.com/njmlopez17/Python_VBCode_PyTest/blob/6fd242e8039f712b564977624fa7a1991384b034/Test%20Automation%20End-to-End%20documentation.pdf
 
